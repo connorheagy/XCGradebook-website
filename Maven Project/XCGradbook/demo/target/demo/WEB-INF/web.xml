@@ -22,4 +22,14 @@
     <servlet-name>CourseSearch</servlet-name>
     <url-pattern>/browse</url-pattern>
   </servlet-mapping>
+
+   <servlet>
+    <servlet-name>RemovePost</servlet-name>
+    <servlet-class>Servlets.RemovePost</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RemovePost</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
 </web-app>
